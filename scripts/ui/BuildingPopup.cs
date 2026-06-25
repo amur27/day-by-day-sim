@@ -40,6 +40,6 @@ namespace DayByDaySim.UI
 			Visible = true;
 		}
 
-		public void Hide() => Visible = false;
+		public new void Hide() => Visible = false;
 	}
 }

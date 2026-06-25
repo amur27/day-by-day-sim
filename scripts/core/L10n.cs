@@ -20,7 +20,7 @@ namespace DayByDaySim.Core
         // Множественная форма: L10n.Plural("economy.ruble", 3) → "3 рубля"
         // В .po файле ключ должен иметь msgid_plural с тем же ключом и несколько msgstr[n].
         public static string Plural(string key, int n) =>
-            string.Format(TranslationServer.PluralTranslate(key, key, n), n);
+            string.Format(TranslationServer.TranslatePlural(key, key, n), n);
 
         // Сменить язык во время игры
         public static void SetLocale(string locale) =>

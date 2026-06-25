@@ -23,6 +23,8 @@ namespace DayByDaySim.Gameplay
         {
             Instance = this;
             GetNode<TimeManager>("/root/TimeManager").HourPassed += OnHourPassed;
+            // TODO: заменить на загрузку сценария при старте игры
+            SetFamily(CreateTestFamily());
         }
 
         // Применяет тик симулятора потребностей ко всем живым членам семьи

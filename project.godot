@@ -21,6 +21,7 @@ config/icon="res://icon.svg"
 TimeManager="*res://scripts/gameplay/TimeManager.cs"
 FamilyManager="*res://scripts/gameplay/FamilyManager.cs"
 VersionLabel="*res://scripts/ui/VersionLabel.cs"
+FamilyPanel="*res://scripts/ui/FamilyPanel.cs"
 
 [display]
 

@@ -1,0 +1,313 @@
+# Русский язык — основной язык игры Day-by-day-sim
+msgid ""
+msgstr ""
+"Language: ru\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+# --- UI общее ---
+msgid "ui.close"
+msgstr "Закрыть"
+
+msgid "ui.back"
+msgstr "Назад"
+
+msgid "ui.confirm"
+msgstr "Подтвердить"
+
+msgid "ui.cancel"
+msgstr "Отмена"
+
+msgid "ui.yes"
+msgstr "Да"
+
+msgid "ui.no"
+msgstr "Нет"
+
+msgid "ui.unknown"
+msgstr "Неизвестно"
+
+# --- Время ---
+msgid "time.pause"
+msgstr "Пауза"
+
+msgid "time.speed.x1"
+msgstr "x1"
+
+msgid "time.speed.x2"
+msgstr "x2"
+
+msgid "time.speed.x4"
+msgstr "x4"
+
+# --- Здание ---
+msgid "building.district.label"
+msgstr "Район:"
+
+msgid "building.default.name"
+msgstr "Здание"
+
+# --- Типы районов ---
+msgid "district.type.poor"
+msgstr "Бедный"
+
+msgid "district.type.residential"
+msgstr "Спальный"
+
+msgid "district.type.industrial"
+msgstr "Промышленный"
+
+msgid "district.type.business"
+msgstr "Деловой"
+
+msgid "district.type.university"
+msgstr "Университетский"
+
+msgid "district.type.commercial"
+msgstr "Торговый"
+
+msgid "district.type.elite"
+msgstr "Элитный"
+
+msgid "district.type.suburb"
+msgstr "Пригород"
+
+msgid "district.type.mixed"
+msgstr "Смешанный"
+
+# --- Жизненные параметры ---
+msgid "life.hp"
+msgstr "Здоровье"
+
+msgid "life.mp"
+msgstr "Счастье"
+
+# --- Базовые потребности ---
+msgid "need.nutrition"
+msgstr "Питание"
+
+msgid "need.energy"
+msgstr "Энергия"
+
+msgid "need.mood"
+msgstr "Настроение"
+
+msgid "need.stress"
+msgstr "Стресс"
+
+# --- Черты характера (18 врождённых) ---
+msgid "char.trait.diligence"
+msgstr "Трудолюбие"
+
+msgid "char.trait.bureaucracy"
+msgstr "Бюрократизм"
+
+msgid "char.trait.law_attitude"
+msgstr "Отношение к закону"
+
+msgid "char.trait.shopping_attitude"
+msgstr "Отношение к шоппингу"
+
+msgid "char.trait.analytical_ability"
+msgstr "Аналитические способности"
+
+msgid "char.trait.comfort_attitude"
+msgstr "Отношение к комфорту"
+
+msgid "char.trait.prestige_attitude"
+msgstr "Отношение к престижу"
+
+msgid "char.trait.creativity"
+msgstr "Креативность"
+
+msgid "char.trait.substance_attitude"
+msgstr "Отношение к алкоголю"
+
+msgid "char.trait.sport_attitude"
+msgstr "Любовь к спорту"
+
+msgid "char.trait.tech_attitude"
+msgstr "Отношение к технологиям"
+
+msgid "char.trait.hygiene_attitude"
+msgstr "Отношение к гигиене"
+
+msgid "char.trait.sociability"
+msgstr "Любовь к общению"
+
+msgid "char.trait.spirituality"
+msgstr "Духовность"
+
+msgid "char.trait.food_attitude"
+msgstr "Любовь к еде"
+
+msgid "char.trait.sleep_attitude"
+msgstr "Любовь ко сну"
+
+msgid "char.trait.driving_attitude"
+msgstr "Любовь к езде"
+
+msgid "char.trait.risk_attitude"
+msgstr "Отношение к риску"
+
+# Диапазоны значений черт (0-100)
+msgid "char.trait.range.loathes"
+msgstr "Ненавидит / избегает"
+
+msgid "char.trait.range.dislikes"
+msgstr "Не любит"
+
+msgid "char.trait.range.neutral"
+msgstr "Нейтрально"
+
+msgid "char.trait.range.likes"
+msgstr "Любит"
+
+msgid "char.trait.range.adores"
+msgstr "Обожает / определяет личность"
+
+# --- Типы отношений ---
+msgid "rel.type.spouse"
+msgstr "Супруг(а)"
+
+msgid "rel.type.parent"
+msgstr "Родитель"
+
+msgid "rel.type.child"
+msgstr "Ребёнок"
+
+msgid "rel.type.sibling"
+msgstr "Брат / сестра"
+
+msgid "rel.type.relative"
+msgstr "Родственник"
+
+msgid "rel.type.friend"
+msgstr "Друг"
+
+msgid "rel.type.colleague"
+msgstr "Коллега"
+
+msgid "rel.type.boss"
+msgstr "Начальник"
+
+msgid "rel.type.subordinate"
+msgstr "Подчинённый"
+
+msgid "rel.type.neighbor"
+msgstr "Сосед"
+
+msgid "rel.type.mentor"
+msgstr "Наставник"
+
+msgid "rel.type.mentee"
+msgstr "Ученик"
+
+msgid "rel.type.useful_contact"
+msgstr "Полезный контакт"
+
+msgid "rel.type.enemy"
+msgstr "Враг"
+
+# --- Уровни образования ---
+msgid "edu.level.none"
+msgstr "Нет образования"
+
+msgid "edu.level.primary"
+msgstr "Начальное"
+
+msgid "edu.level.secondary"
+msgstr "Среднее"
+
+msgid "edu.level.vocational"
+msgstr "Среднее специальное"
+
+msgid "edu.level.incomplete"
+msgstr "Неполное высшее"
+
+msgid "edu.level.higher"
+msgstr "Высшее"
+
+msgid "edu.level.postgraduate"
+msgstr "Учёная степень"
+
+# --- Занятость ---
+msgid "employment.unemployed"
+msgstr "Не работает"
+
+msgid "employment.salary.label"
+msgstr "Зарплата:"
+
+# --- Финансы (множественные формы) ---
+msgid "economy.ruble"
+msgid_plural "economy.ruble"
+msgstr[0] "%d рубль"
+msgstr[1] "%d рубля"
+msgstr[2] "%d рублей"
+
+msgid "economy.month.label"
+msgstr "в месяц"
+
+msgid "economy.income.label"
+msgstr "Доходы:"
+
+msgid "economy.expenses.label"
+msgstr "Расходы:"
+
+msgid "economy.balance.label"
+msgstr "Баланс:"
+
+msgid "economy.debt.label"
+msgstr "Долг:"
+
+# --- Правовые статусы ---
+msgid "legal.doc.status.valid"
+msgstr "Действителен"
+
+msgid "legal.doc.status.expired"
+msgstr "Просрочен"
+
+msgid "legal.doc.status.revoked"
+msgstr "Аннулирован"
+
+msgid "legal.case.type.civil"
+msgstr "Гражданское дело"
+
+msgid "legal.case.type.criminal"
+msgstr "Уголовное дело"
+
+msgid "legal.case.type.administrative"
+msgstr "Административное дело"
+
+msgid "legal.fine.status.unpaid"
+msgstr "Не оплачен"
+
+msgid "legal.fine.status.paid"
+msgstr "Оплачен"
+
+msgid "legal.fine.status.overdue"
+msgstr "Просрочен"
+
+msgid "legal.fine.status.contested"
+msgstr "Оспаривается"
+
+# --- Полярность привычек ---
+msgid "habit.polarity.positive"
+msgstr "Полезная"
+
+msgid "habit.polarity.negative"
+msgstr "Вредная"
+
+# --- Семья ---
+msgid "family.extinct"
+msgstr "Династия прервалась"
+
+msgid "family.member.died"
+msgstr "{0} скончался(ась)"
+
+# --- Игра ---
+msgid "game.over"
+msgstr "Конец игры"
+
+msgid "game.over.desc"
+msgstr "Все члены семьи погибли. История династии завершена."

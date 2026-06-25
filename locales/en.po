@@ -1,0 +1,312 @@
+# English translations for Day-by-day-sim
+msgid ""
+msgstr ""
+"Language: en\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# --- UI general ---
+msgid "ui.close"
+msgstr "Close"
+
+msgid "ui.back"
+msgstr "Back"
+
+msgid "ui.confirm"
+msgstr "Confirm"
+
+msgid "ui.cancel"
+msgstr "Cancel"
+
+msgid "ui.yes"
+msgstr "Yes"
+
+msgid "ui.no"
+msgstr "No"
+
+msgid "ui.unknown"
+msgstr "Unknown"
+
+# --- Time ---
+msgid "time.pause"
+msgstr "Pause"
+
+msgid "time.speed.x1"
+msgstr "x1"
+
+msgid "time.speed.x2"
+msgstr "x2"
+
+msgid "time.speed.x4"
+msgstr "x4"
+
+# --- Building ---
+msgid "building.district.label"
+msgstr "District:"
+
+msgid "building.default.name"
+msgstr "Building"
+
+# --- District types ---
+msgid "district.type.poor"
+msgstr "Slum"
+
+msgid "district.type.residential"
+msgstr "Residential"
+
+msgid "district.type.industrial"
+msgstr "Industrial"
+
+msgid "district.type.business"
+msgstr "Business"
+
+msgid "district.type.university"
+msgstr "University"
+
+msgid "district.type.commercial"
+msgstr "Commercial"
+
+msgid "district.type.elite"
+msgstr "Elite"
+
+msgid "district.type.suburb"
+msgstr "Suburb"
+
+msgid "district.type.mixed"
+msgstr "Mixed"
+
+# --- Life stats ---
+msgid "life.hp"
+msgstr "Health"
+
+msgid "life.mp"
+msgstr "Happiness"
+
+# --- Basic needs ---
+msgid "need.nutrition"
+msgstr "Nutrition"
+
+msgid "need.energy"
+msgstr "Energy"
+
+msgid "need.mood"
+msgstr "Mood"
+
+msgid "need.stress"
+msgstr "Stress"
+
+# --- Character traits (18 innate) ---
+msgid "char.trait.diligence"
+msgstr "Diligence"
+
+msgid "char.trait.bureaucracy"
+msgstr "Bureaucratic Aptitude"
+
+msgid "char.trait.law_attitude"
+msgstr "Attitude to Law"
+
+msgid "char.trait.shopping_attitude"
+msgstr "Attitude to Shopping"
+
+msgid "char.trait.analytical_ability"
+msgstr "Analytical Ability"
+
+msgid "char.trait.comfort_attitude"
+msgstr "Attitude to Comfort"
+
+msgid "char.trait.prestige_attitude"
+msgstr "Attitude to Prestige"
+
+msgid "char.trait.creativity"
+msgstr "Creativity"
+
+msgid "char.trait.substance_attitude"
+msgstr "Attitude to Alcohol"
+
+msgid "char.trait.sport_attitude"
+msgstr "Love of Sport"
+
+msgid "char.trait.tech_attitude"
+msgstr "Attitude to Technology"
+
+msgid "char.trait.hygiene_attitude"
+msgstr "Attitude to Hygiene"
+
+msgid "char.trait.sociability"
+msgstr "Sociability"
+
+msgid "char.trait.spirituality"
+msgstr "Spirituality"
+
+msgid "char.trait.food_attitude"
+msgstr "Love of Food"
+
+msgid "char.trait.sleep_attitude"
+msgstr "Love of Sleep"
+
+msgid "char.trait.driving_attitude"
+msgstr "Love of Driving"
+
+msgid "char.trait.risk_attitude"
+msgstr "Risk Attitude"
+
+# Trait value ranges
+msgid "char.trait.range.loathes"
+msgstr "Loathes / Avoids"
+
+msgid "char.trait.range.dislikes"
+msgstr "Dislikes"
+
+msgid "char.trait.range.neutral"
+msgstr "Neutral"
+
+msgid "char.trait.range.likes"
+msgstr "Likes"
+
+msgid "char.trait.range.adores"
+msgstr "Adores / Defines personality"
+
+# --- Relationship types ---
+msgid "rel.type.spouse"
+msgstr "Spouse"
+
+msgid "rel.type.parent"
+msgstr "Parent"
+
+msgid "rel.type.child"
+msgstr "Child"
+
+msgid "rel.type.sibling"
+msgstr "Sibling"
+
+msgid "rel.type.relative"
+msgstr "Relative"
+
+msgid "rel.type.friend"
+msgstr "Friend"
+
+msgid "rel.type.colleague"
+msgstr "Colleague"
+
+msgid "rel.type.boss"
+msgstr "Boss"
+
+msgid "rel.type.subordinate"
+msgstr "Subordinate"
+
+msgid "rel.type.neighbor"
+msgstr "Neighbor"
+
+msgid "rel.type.mentor"
+msgstr "Mentor"
+
+msgid "rel.type.mentee"
+msgstr "Mentee"
+
+msgid "rel.type.useful_contact"
+msgstr "Useful Contact"
+
+msgid "rel.type.enemy"
+msgstr "Enemy"
+
+# --- Education levels ---
+msgid "edu.level.none"
+msgstr "No Education"
+
+msgid "edu.level.primary"
+msgstr "Primary"
+
+msgid "edu.level.secondary"
+msgstr "Secondary"
+
+msgid "edu.level.vocational"
+msgstr "Vocational"
+
+msgid "edu.level.incomplete"
+msgstr "Incomplete Higher"
+
+msgid "edu.level.higher"
+msgstr "Higher Education"
+
+msgid "edu.level.postgraduate"
+msgstr "Postgraduate"
+
+# --- Employment ---
+msgid "employment.unemployed"
+msgstr "Unemployed"
+
+msgid "employment.salary.label"
+msgstr "Salary:"
+
+# --- Finances (plural forms) ---
+msgid "economy.ruble"
+msgid_plural "economy.ruble"
+msgstr[0] "%d ruble"
+msgstr[1] "%d rubles"
+
+msgid "economy.month.label"
+msgstr "per month"
+
+msgid "economy.income.label"
+msgstr "Income:"
+
+msgid "economy.expenses.label"
+msgstr "Expenses:"
+
+msgid "economy.balance.label"
+msgstr "Balance:"
+
+msgid "economy.debt.label"
+msgstr "Debt:"
+
+# --- Legal statuses ---
+msgid "legal.doc.status.valid"
+msgstr "Valid"
+
+msgid "legal.doc.status.expired"
+msgstr "Expired"
+
+msgid "legal.doc.status.revoked"
+msgstr "Revoked"
+
+msgid "legal.case.type.civil"
+msgstr "Civil Case"
+
+msgid "legal.case.type.criminal"
+msgstr "Criminal Case"
+
+msgid "legal.case.type.administrative"
+msgstr "Administrative Case"
+
+msgid "legal.fine.status.unpaid"
+msgstr "Unpaid"
+
+msgid "legal.fine.status.paid"
+msgstr "Paid"
+
+msgid "legal.fine.status.overdue"
+msgstr "Overdue"
+
+msgid "legal.fine.status.contested"
+msgstr "Contested"
+
+# --- Habit polarity ---
+msgid "habit.polarity.positive"
+msgstr "Positive"
+
+msgid "habit.polarity.negative"
+msgstr "Negative"
+
+# --- Family ---
+msgid "family.extinct"
+msgstr "The dynasty has ended"
+
+msgid "family.member.died"
+msgstr "{0} has died"
+
+# --- Game ---
+msgid "game.over"
+msgstr "Game Over"
+
+msgid "game.over.desc"
+msgstr "All family members have perished. The dynasty's story is over."

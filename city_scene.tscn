@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://c73rryino0rdl"]
+
+[ext_resource type="Script" uid="uid://c31ohwptl76wj" path="res://scripts/city/CityScene.cs" id="1_3j6ap"]
+[ext_resource type="Script" uid="uid://dfw1xi6iitpxs" path="res://scripts/camera/Camera2d.cs" id="2_5fn04"]
+
+[node name="CityScene" type="Node2D" unique_id=421874818]
+script = ExtResource("1_3j6ap")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=294086607]
+script = ExtResource("2_5fn04")

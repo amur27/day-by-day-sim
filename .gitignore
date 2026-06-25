@@ -1,0 +1,17 @@
+# Godot 4 — кэш и временные файлы движка
+.godot/
+/android/
+
+# C# — артефакты сборки
+bin/
+obj/
+*.user
+*.suo
+.vs/
+
+# Инструменты IDE и ИИ
+.superpowers/
+brainstorm-*.html
+
+# Локальные настройки Claude Code
+.claude/settings.local.json

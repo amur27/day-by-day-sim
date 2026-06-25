@@ -1,0 +1,20 @@
+[gd_scene format=3 uid="uid://cxx84c4uwbxjw"]
+
+[ext_resource type="Script" uid="uid://clnomkbkwpxx6" path="res://scripts/city/CityScene.cs" id="1_3j6ap"]
+[ext_resource type="Script" uid="uid://dodx7lt6udev6" path="res://scripts/camera/CityCamera.cs" id="1_glskv"]
+[ext_resource type="Script" path="res://scripts/ui/BuildingPopup.cs" id="1_popup"]
+[ext_resource type="Script" path="res://scripts/ui/TimeHUD.cs" id="1_hud"]
+
+[node name="CityScene" type="Node2D" unique_id=421874818]
+script = ExtResource("1_3j6ap")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=294086607]
+script = ExtResource("1_glskv")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=112233445]
+
+[node name="BuildingPopup" type="PanelContainer" parent="CanvasLayer" unique_id=556677889]
+script = ExtResource("1_popup")
+
+[node name="TimeHUD" type="HBoxContainer" parent="CanvasLayer" unique_id=998877661]
+script = ExtResource("1_hud")

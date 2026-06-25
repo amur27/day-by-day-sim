@@ -11,6 +11,7 @@ config_version=5
 [application]
 
 config/name="Day-to-day-sim"
+config/version="0.1.0"
 run/main_scene="uid://cxx84c4uwbxjw"
 config/features=PackedStringArray("4.7", "C#", "GL Compatibility")
 config/icon="res://icon.svg"

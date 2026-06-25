@@ -1,0 +1,56 @@
+# Сборка и публикация Windows-релиза при push тега v*.*.*
+# Запуск: git tag v0.1.0 && git push origin v0.1.0
+
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+env:
+  GODOT_VERSION: 4.7.0
+  EXPORT_NAME: Day-to-day-sim
+
+jobs:
+  build-windows:
+    name: Build Windows
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.x'
+
+      - name: Setup Godot
+        uses: chickensoft-games/setup-godot@v2
+        with:
+          version: ${{ env.GODOT_VERSION }}
+          use-dotnet: true
+          include-templates: true
+
+      - name: Create build dir
+        run: mkdir -p build/windows
+
+      - name: Export Windows
+        run: |
+          godot --headless --export-release "Windows Desktop" "build/windows/${{ env.EXPORT_NAME }}.exe"
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: windows-build
+          path: build/windows/
+
+      - name: Create GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          name: "Day-to-day sim ${{ github.ref_name }}"
+          generate_release_notes: true
+          files: build/windows/*

@@ -3,6 +3,7 @@
 // FamilyMember — не Godot-тип, поэтому уведомления реализованы через C#-события, не Godot-сигналы.
 using Godot;
 using System;
+using System.Collections.Generic;
 using DayByDaySim.Characters;
 
 namespace DayByDaySim.Gameplay
@@ -21,6 +22,23 @@ namespace DayByDaySim.Gameplay
         public override void _Ready()
         {
             Instance = this;
+            GetNode<TimeManager>("/root/TimeManager").HourPassed += OnHourPassed;
+        }
+
+        // Применяет тик симулятора потребностей ко всем живым членам семьи
+        private void OnHourPassed(int hour)
+        {
+            // Собираем умерших отдельно — нельзя вызывать KillMember во время итерации по AliveMembers
+            var died = new List<string>();
+
+            foreach (var member in ActiveFamily.AliveMembers)
+            {
+                if (NeedsSimulator.Tick(member))
+                    died.Add(member.Id);
+            }
+
+            foreach (var id in died)
+                KillMember(id);
         }
 
         // Заменить активную семью (вызывается при загрузке сейва или старте сценария)

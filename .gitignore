@@ -15,3 +15,6 @@ brainstorm-*.html
 
 # Локальные настройки Claude Code
 .claude/settings.local.json
+
+# Дневные заметки — локальные, не для репозитория
+docs/daily/
